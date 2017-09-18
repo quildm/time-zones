@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class TimeZonePage {
+export class SwitchboardPage {
   navigateTo() {
     return browser.get('/');
   }

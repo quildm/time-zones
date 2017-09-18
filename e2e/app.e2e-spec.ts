@@ -1,10 +1,10 @@
-import { TimeZonePage } from './app.po';
+import { SwitchboardPage } from './app.po';
 
-describe('time-zone App', () => {
-  let page: TimeZonePage;
+describe('switchboard App', () => {
+  let page: SwitchboardPage;
 
   beforeEach(() => {
-    page = new TimeZonePage();
+    page = new SwitchboardPage();
   });
 
   it('should display message saying app works', () => {
